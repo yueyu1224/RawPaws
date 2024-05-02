@@ -1,0 +1,73 @@
+.pet-profile {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+.pet-profile h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.pet-profile form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+  
+.pet-profile input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+  
+.pet-profile input:focus {
+    border-color: #a3a3a3;
+}
+  
+.pet-profile button {
+    padding: 10px 20px;
+    background-color: olivedrab;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+  
+.pet-profile button:hover {
+    background-color: darkolivegreen;
+}
+  
+.pet-profile-display {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    text-align: left;
+}
+  
+.pet-profile-display h3 {
+    margin-top: 0;
+    color: #555;
+}
+  
+.pet-profile-display p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.loading-container {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+  

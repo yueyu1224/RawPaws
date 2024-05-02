@@ -1,0 +1,40 @@
+.raw-food-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+  
+.raw-food-info h2, .raw-food-info h3 {
+    text-align: center;
+}
+  
+.accordion-item {
+    margin-top: 15px;
+}
+  
+.accordion-question {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+.accordion-question:hover {
+    background: #dcdcdc;
+}
+  
+.accordion-answer {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+  

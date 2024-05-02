@@ -1,0 +1,37 @@
+.navbar {
+    background-color: lightsteelblue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px; 
+}
+  
+.navbar button {
+    background-color: royalblue; 
+    color: white; 
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+    font-size: 1rem;
+    outline: none; 
+}
+  
+.navbar button:hover {
+    background-color: #0056b3; 
+}
+  
+.navbar button:focus {
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.5);
+}
+  
+  
+.logoutButton {
+    background-color: indianred !important; 
+}
+  
+.logoutButton:hover {
+    background-color: darkred !important; 
+}

@@ -1,0 +1,50 @@
+.raw-food-calculator {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.raw-food-calculator h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.raw-food-calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.raw-food-calculator input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.raw-food-calculator button {
+    padding: 10px;
+    background-color: olivedrab;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.raw-food-calculator button:hover {
+    background-color: darkolivegreen;
+}
+
+.raw-food-calculator p {
+    color: #555;
+    font-weight: bold;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
